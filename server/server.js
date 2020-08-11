@@ -21,5 +21,5 @@ app.get('/api/reddit', (req, res) => {
   }, delay)
 })
 
-const port = 4000;
+const port = 4007;
 app.listen(port, () => console.log(`Listening on port: ${port}`))
